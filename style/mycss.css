@@ -1,0 +1,410 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.fa{
+	color:white;
+}
+
+/*--------------------Στάνταρ_Στοιχεία--------------------*/
+body {
+	background: #c8d8e4;
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+	color: #BC8F8F;
+	letter-spacing: 4px;
+	font-style: bold;
+	font-size: 38px;
+}
+
+footer {
+	font-size: 16px;
+	text-align: center;
+	padding: 4px;
+	margin: 8px;
+}
+
+/*.menu {
+	background-color: #2b6777;
+}*/
+
+/*--------------------Menu--------------------*/
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.menu ul li {
+	flex: 1;
+}
+
+.menu ul li>ul {
+	display: none;
+	flex-direction: column;
+}
+
+.menu ul li>ul li{
+	width:100%;
+	background: #2b6777;
+}
+
+.menu ul li:hover>ul {
+	display:flex ;
+}
+
+.menu a {
+	color: #fff;
+	padding: 14px;
+	text-align: right;
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	background-color: #2b6777;
+}
+
+
+.menu a:hover {
+	background: #c8d8e4;
+	color: #2b6777;
+}
+
+.menu .drop-down li>a {
+	background: #2b6777;
+	color: #fff;
+}
+
+.menu .drop-down li>a:hover {
+	background: #c8d8e4;
+	color: #2b6777;
+}
+
+/*--------------------Για_να_μην_εμφανίζονται_οι_μπάρες-----*/
+.bar .bars {
+	display: none;
+	float: right;
+	line-height: 100px;
+	margin-right: 40px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/*--------------------Menu--------------------*/
+.head {
+	text-align: center;
+	font-size: 22px;
+	font-style: bold;
+	text-decoration: underline;
+	color: #BC8F8F;
+}
+
+.container {
+	margin-left: 14%;
+	margin-right: 14%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: #2b6777;
+}
+
+.container p {
+	display: flex;
+}
+
+/*--------------------Image_Video--------------------*/
+figure .img,
+.imgs,
+video {
+	width: 430px;
+	height: 280px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*--------------------Κείμενα--------------------*/
+.sub {
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	display: flex;
+}
+
+.sub figure {
+	flex-grow: 1;
+}
+
+.sub p {
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 0px;
+}
+
+.text {
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+}
+
+.extra {
+	background: #52ab98;
+}
+
+.extra ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.extra ul li {
+	text-align: center;
+	color: #ffffff;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ypo {
+	font-size: 14px;
+	text-align: center;
+}
+
+.selectoptions {
+	display: flex;
+	justify-content: center;
+}
+
+.question_difficulty {
+	text-align: center;
+}
+
+/*---------------------------------Quiz---------------------------------------*/
+fieldset {
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.ques {
+	text-align: center;
+	font-size: 18px;
+}
+
+label.anss {
+	color: black;
+	text-decoration: none;
+}
+
+.ans li {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	text-align: center;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+	background-color: #BC8F8F;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+input[type=text],
+input[type=password],
+input[type=e-mail],
+input[type=date]{
+	background: #c8d8e4;
+	border: 2px solid #2b6777;
+	padding: 6px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+label {
+	text-align: center;
+	font-style: bold;
+	text-decoration: underline;
+	color: #BC8F8F;
+	font-size: 18px;
+}
+
+.gen {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.radioo,
+.ph {
+	display: block;
+	text-align: center;
+	margin: 10px 0px;
+	cursor: pointer;
+	border: 2px solid #2b6777;
+	padding: 6px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.photoo{
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid #2b6777;
+	padding: 8px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 70%;
+}
+
+/*-------------------------Sign_up-----------------------*/
+.signup,
+.join {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+/*-----------------------------User----------------------*/
+.customize {
+	display: flex;
+	flex-direction: row;
+}
+
+.photoprofil {
+	flex: 1;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #c8d8e4;
+}
+
+.photo{
+	border: 2px solid #2b6777;
+	width: 70%;
+	height: 270px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.elements {
+	flex: 1;
+	margin-left: 4%;
+	margin-right: 4%;
+	flex-direction: column;
+	display: flex;
+}
+
+.flex-base {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*---------------Genikh_vash_gia_flex----------------------*/
+.flex-kid {
+	flex: 1;
+}
+
+.flex-kid-half {
+	flex: 0.5;
+}
+
+#user_photo_id{
+	width: 100%;
+	height: 100%;
+}
+/*---------------------------For_tablet------------------------------*/
+@media screen and (max-width: 1025px) {
+	/*---------------Menu----------------*/
+	.menu ul {
+		flex-direction: column;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+	/*--------------------Keimena-------------------------*/
+	.container{
+		text-align: center;
+	}
+	.sub,.text{
+		display: flex;
+		flex-direction: column;
+		margin-left: 6%;
+		margin-right: 6%;	
+	}
+
+	input[type=text], input[type=password], input[type=e-mail], input[type=date] {
+		padding: 8px;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	/*--------------------Image_Video--------------------*/
+	figure .img,.imgs,video {
+		width: 80%;
+		height: 90%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	/*-----------------------------User----------------------*/
+	.customize {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.elements {
+		flex-direction: column;
+	}
+
+	.elements label{
+		flex-direction: column;
+		display: flex;
+	}
+}
+
+/*---------------------------For_tablet------------------------------*/
+@media screen and (max-width: 480px) {
+	.bar{
+		background-color: #2b6777;
+	}
+
+	header{
+		align-self: flex-start;
+		text-align: left;
+		line-height: 100px;
+		font-weight:bold ;
+		font-size: 36px;
+		color: white;
+	}
+
+	.bar .bars {
+		display: block;
+		float: right;
+		color:white;
+		line-height: 100px;
+		margin-right: 40px;
+		font-size: 30px;
+		cursor: pointer;
+		align-self: flex-end;
+	}
+}
